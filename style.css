@@ -1,0 +1,72 @@
+body {
+    background-color: #142850 !important ;
+}
+
+#main-heading {
+    margin-top: 5%;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-weight: bolder;
+    font-size: 500%;
+    color: #00A8CC;
+}
+
+.not-found-text {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+
+#noData {
+    display: none;
+    align-items: center;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#noDataTxt {
+    display: none;
+}
+
+.card-header {
+    color: #00A8CC !important;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-text {
+    text-align: center;
+    font-weight: 500;
+    color: #0C7B93;
+}
+
+.text-center {
+    margin-bottom: 10px;
+}
+
+#breweryType {
+    text-transform: capitalize;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
